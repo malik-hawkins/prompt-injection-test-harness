@@ -67,14 +67,3 @@ Append a dict to `ATTACKS` in `attacks.py`:
 ```
 
 For multi-turn attacks, use `"messages"` instead of `"prompt"` (see `social-game-01`).
-
-## Extending it
-
-- Swap keyword scoring for LLM-as-judge in `scoring.py`
-- Add OWASP LLM Top 10 mappings per attack
-- Track scores across model versions to catch regressions in CI
-
-## Ground rules
-
-Only test systems you own or have explicit written permission to test.
-Unauthorized testing is out of scope — for this project and your career.
